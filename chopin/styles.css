@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.tete {
+    height: 80px;
+    display: flex;
+    font-family: 'poppins';
+    border: 1.5px solid #fff;
+    border-radius: 4px;
+}
+
+.titre2 {
+    color: #302b63; 
+}
+
+.navigation {
+    font-size: 12px;
+    font-weight: 700;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 36%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nom {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: 54.7%;
+    list-style-type: none;
+}
+
+.moi {
+    transition-duration: 0.4s;
+}
+
+.moncv {
+    color: white;
+    padding : 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.presentation {
+    color: white;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 80%;
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    padding: 100px 0px;   
+}
+
+.bonjour {
+    font-size: 70px;
+    text-align: center;
+}
+
+.pmoi {
+    font-size: 100%;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.section2 {
+    margin-top: 200px;
+    border-radius: 4px;
+    font-family: 'poppins';
+    padding: 10% 20%;
+    margin-bottom: 17%;
+    font-size: 80%;
+}
+
+.liencv::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 96%;
+    height: 1.5px;
+    background: black;
+    bottom: 0;
+    transform: scaleX(0.2);
+    transform-origin: left;
+    transition-duration: 0.7s;
+}
+
+.liencv:hover::after {
+    transform: scaleX(1);
+    transition-duration: 0.7s;
+}
+
+.liencv {
+    position: relative;
+}
+
+.liencv:hover {
+    color: #302b63;
+}
+
+.moi::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 96%;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    transform: scaleX(0.5);
+    transform-origin: left;
+    transition-duration: 0.7s;
+}
+
+.moi:hover::after {
+    transform: scaleX(1);
+    transition-duration: 0.7s;
+}
+
+.moi {
+    position: relative;
+}
+
+.activite::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 96%;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    transform: scaleX(0.09);
+    transform-origin: left;
+    transition-duration: 0.7s;
+}
+
+.activite:hover::after {
+    transform: scaleX(1);
+    transition-duration: 0.7s;
+}
+
+.activite {
+    position: relative;
+}
+
+.comp::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 96%;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    transform: scaleX(0.13);
+    transform-origin: left;
+    transition-duration: 0.7s;
+}
+
+.comp:hover::after {
+    transform: scaleX(1);
+    transition-duration: 0.7s;
+}
+
+.comp {
+    position: relative;
+}
+
+.contact::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 98%;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    transform: scaleX(0.2);
+    transform-origin: left;
+    transition-duration: 0.7s;
+}
+
+.contact:hover::after {
+    transform: scaleX(1);
+    transition-duration: 0.7s;
+}
+
+.contact {
+    position: relative;
+}
+
+.interets {
+    font-family: 'poppins';
+    padding: 18% 20%;
+    font-size: 80%;
+    background: #C33764;
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  
+    background: linear-gradient(to right, #1D2671, #C33764); 
+    color: white;
+}
+
+.pianoforte {
+    width: 40%;
+    height: 40%;
+    float: right;
+}
+
+.evolution {
+    color: #24243e;
+}
+
+.part3 {
+    font-family: 'poppins';
+    font-size: 80%;
+    padding: 18% 20%;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+}
+
+
+span {
+    padding: 0.35% 0%;
+    background-color: #303030;
+}
+
+.clavecin {
+    padding: 5% 19%;
+}
+
+.imgclavecin {
+    height: 50%;
+    width: 50%;
+}
+
+.txtclavecin {
+    font-size: 100%;
+    font-weight: 300;
+    font-style: italic
+}
+
+.piano {
+    padding: 5% 19%;
+}
+
+.imgpiano {
+    height: 50%;
+    width: 50%;
+}
+
+.txtpiano {
+    font-size: 100%;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.part4 {
+    font-family: 'poppins';
+    font-size: 90%;
+    background: #ece9e673;  
+    border-radius: 30px;
+    margin: 0px 14%;
+}
+
+.souspart4 {
+    padding: 100px 150px;
+}
+
+.extrait1 {
+    padding: 30px 30px;
+}
+
+.videos {
+    display: flex;
+}
+
+.video1 {
+    padding: 13px;
+}
+
+.video2 {
+    padding: 13px;
+}
+
+.bien {
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 80%;
+    padding: 10% 20%;
+    background: #C04848;
+    background: -webkit-linear-gradient(to right, #480048, #C04848); 
+    background: linear-gradient(to right, #480048, #C04848); 
+}
+
+
+@media screen and (max-width: 1499px) {
+    .bonjour {
+        font-size: 300%;
+    }
+
+    p {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 290%;
+    }
+}
