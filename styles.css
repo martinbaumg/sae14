@@ -19,7 +19,7 @@ html {
 div.liste li {
     color: white;
     font-weight: 600;
-    font-size: 80%;
+    font-size: 100%;
     padding: 19px 19px;
 }
 
@@ -147,6 +147,20 @@ li {
     text-align: center;
 }
 
+.hhk {
+    width: 100%;
+    height: auto;
+}
+
+.photos {
+    font-family: 'IBM Plex Sans';
+    font-size: 80%;
+}
+
+.lvv {
+    width: 100%;
+    height: auto;
+}
 
 
 
