@@ -8,6 +8,26 @@ body {
     margin: 0px;
 }
 
+.lafleche{
+    position: relative; /*pour pouvoir utiliser les balises de positionnement comme "top", "left" etc*/
+    position : fixed; /*pour que la flèche soit fixe sur un endroit de la page*/
+    height: 10%;
+    top: 87%;
+    left: 94.2%;
+    z-index: 1; /* pour que la flèche reste au dessus de tous les élements de la page*/
+}
+
+.lafleche:hover{
+    transition-duration: 0.8s;
+    position: relative; /*pour pouvoir utiliser les balises de positionnement comme "top", "left" etc*/
+    position : fixed; /*pour que la flèche soit fixe sur un endroit de la page*/
+    height: 10%;
+    top: 87%;
+    left: 94.2%;
+    z-index: 1; /* pour que la flèche reste au dessus de tous les élements de la page*/
+    transform: rotate(720deg); /*ici c'est pour effectuer une rotation de la flèche au passage de la souris*/
+}
+
 .tete {
     height: 80px;
     display: flex;
@@ -192,7 +212,7 @@ a {
     height: 2px;
     background: black;
     bottom: 0;
-    transform: scaleX(0.2);
+    transform: scaleX(0.1);
     transform-origin: left;
     transition-duration: 0.7s;
 }
